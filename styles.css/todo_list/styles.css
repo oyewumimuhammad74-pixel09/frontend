@@ -1,0 +1,51 @@
+body {
+  background-color: white;
+}
+a.sub-item-link{
+  color: blue;
+  text-decoration: none;
+}
+a:link{
+  color: black;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: red;
+}
+a:focus {
+  color: green;
+  outline: 2px solid blue;
+}
+a:active {
+  color: black;
+}
+.heading {
+  font-family: 'Times New Roman', Times;
+  font-size: 50px;
+  padding: 2px;
+  margin-left: 50px;
+  color:black;
+}
+.checkbox {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+}
+.sub-item-link {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+.field{
+    background-color: lightgreen;
+    margin-bottom: 10px;
+    outline: none;
+}
+.base-field {
+    color: lightblue;
+    padding-bottom: 100px;
+}
+.todo-list{
+    list-style-type: disc;
+}
