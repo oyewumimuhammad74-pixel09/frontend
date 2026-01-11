@@ -1,0 +1,92 @@
+  body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(
+    180deg,
+    #0b0f1a 0%,
+    #1a1033 35%,
+    #3a145f 65%,
+    #7b2b6a 100%
+  );
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+  .container {
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.tm {
+  font-size: 5px;
+  vertical-align: super;
+  margin-left: 5px;
+  padding-top: 100px;
+  opacity: 0.7;
+}
+
+.subtitle {
+  margin: 15px 0 30px;
+  font-size: 14px;
+  opacity: 0.5;
+  font-weight: 300;
+}
+
+.btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.btn:hover{
+color: red;
+}
+
+
+.primary {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.4);
+  color: white;
+}
+
+.secondary {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: white;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+  opacity: 0.6;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: rgba(255,255,255,0.3);
+}
+
+.terms {
+  margin-top: 20px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
